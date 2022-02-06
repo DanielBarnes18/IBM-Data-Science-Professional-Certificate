@@ -1,4 +1,4 @@
-# Data Vizualisation with Python
+# Data Visualization with Python
 
 
 ## Certificates
