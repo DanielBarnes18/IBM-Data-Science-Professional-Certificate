@@ -1,18 +1,18 @@
 # What is Data Science?
 
-## Summary
+## Summary 📄
 The first of 10 in this series, this course introduces the field of data science. It defines the importance of data science (and data scientists) in today's data driven world, outlines some key topics, and presents some applications of data science in business. 
 
-## Main Topics
+## Main Topics 📑
 - Defining Data Science and What Data Scientists Do
 - Data Science Topics
 - Deep Learning and Machine Learning
 - Data Science in Business
 
-## Skills Learned
+## Key Skills Learned 🔑
 - An overall understanding of what data science is, and why it is changing the way we do business and research.
 
-## Certificates
+## Certificates 🏆
 To verify the certificates, click the images to follow the links.
 
 <p align="middle">
