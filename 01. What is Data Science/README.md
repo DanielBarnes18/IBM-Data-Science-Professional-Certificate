@@ -6,6 +6,7 @@ The first of 10 in this course, this module introduces the field of data science
 ## Main Topics
 - Defining Data Science and What Data Scientists Do
 - Data Science Topics
+- Deep Learning and Machine Learning
 - Data Science in Business
 
 ## Skills Learned
