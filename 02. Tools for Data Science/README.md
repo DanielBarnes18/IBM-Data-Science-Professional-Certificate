@@ -1,6 +1,14 @@
 # Tools for Data Science
 
-## Certificates
+## Summary 📄
+
+## Main Topics 📑
+- 
+
+## Key Skills Learned 🔑
+- 
+
+## Certificates 🏆
 To verify the certificates, click the images to follow the links.
 
 <p align="middle">
