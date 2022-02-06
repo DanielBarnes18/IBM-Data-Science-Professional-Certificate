@@ -1,7 +1,7 @@
 # What is Data Science?
 
 ## Summary
-The first of 10 in this course, this module introduces the field of data science. It defines the importance of data science (and data scientists) in today's data driven world, outlines some key topics, and presents some applications of data science in business. 
+The first of 10 in this series, this course introduces the field of data science. It defines the importance of data science (and data scientists) in today's data driven world, outlines some key topics, and presents some applications of data science in business. 
 
 ## Main Topics
 - Defining Data Science and What Data Scientists Do
