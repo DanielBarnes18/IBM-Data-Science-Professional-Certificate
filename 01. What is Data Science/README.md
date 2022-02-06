@@ -1,2 +1,2 @@
-# 01. What is Data Science?
+# What is Data Science?
 
