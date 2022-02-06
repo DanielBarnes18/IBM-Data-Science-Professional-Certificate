@@ -1,7 +1,12 @@
 # Data Science Methodology
 
+## Summary 📄
 
-## Certificates
+## Main Topics 📑
+- 
+
+## Key Skills Learned 🔑
+- 
 To verify the certificates, click the images to follow the links.
 
 <p align="middle">
