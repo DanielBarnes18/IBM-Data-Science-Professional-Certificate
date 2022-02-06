@@ -1,9 +1,7 @@
-# IBM-Data-Science-Professional-Certificate
+# IBM Data Science Professional Certificate
 IBM Data Science Professional Certificate - Containing all 10 courses
 
 ## Description
-
-Give a brief description of the course, and what I have learned from it
 
 The program consists of 10 online courses that provide the tools and skills to succeed in data science, including open source tools and libraries, Python, databases, SQL, data visualization, data analysis, statistical analysis, predictive modeling, and machine learning algorithms. 
 
