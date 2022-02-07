@@ -6,7 +6,10 @@
 - 
 
 ## Key Skills Learned 🔑
-- 
+- Introduction to the languages, tools, and data used by data scientists, including IBM tools focused on data science. 
+- Knowledge of the features of Jupyter Notebookand RStudio IDE that make them popular for data science projects.
+- Creation and management of source code for data science in GitHub.
+- Understanding of how IBM Watson Studio and other IBM data science tools can be used by data scientists.
 
 ## Certificates 🏆
 To verify the certificates, click the images to follow the links.
