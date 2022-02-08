@@ -8,7 +8,7 @@ This course introduces data science methodologies, including the IBM Foundationa
 - The six stages in the Cross Industry Process for Data Mining (CRISP-DM) methodology, including Business Understanding and Data Understanding
 
 ## Key Skills Learned 🔑
-- The use of data science methodologies to solve business problems in a structured, consistent manner.
+- The use of methodologies to solve business problems in a structured, consistent manner.
 - An understanding of the importance of methodologies in data science.
 
 ## Certificates 🏆
