@@ -11,7 +11,7 @@ This course provides an introduction to the common programming languages used by
 ## 🔑 Key Skills Learned 
 - Introduction to the languages, tools, and data used by data scientists, including IBM tools focused on data science. 
 - Knowledge of the features of Jupyter Notebook and RStudio IDE that make them popular for data science projects.
-- Creation and management of source code for data science in GitHub.
+- Creation and management/version control of source code for data science in GitHub.
 - Understanding of how IBM Watson Studio and other IBM data science tools can be used by data scientists.
 
 ## 🏆 Certificates 
