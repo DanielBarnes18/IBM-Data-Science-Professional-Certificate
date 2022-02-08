@@ -1,14 +1,14 @@
 # Python Project for Data Science
 
-## Summary 📄
+## 📄 Summary 
 
-## Main Topics 📑
+## 📑 Main Topics 
 - 
 
-## Key Skills Learned 🔑
+## 🔑 Key Skills Learned 
 - 
 
-## Certificates 🏆
+## 🏆 Certificates 
 To verify the certificates, click the images to follow the links.
 
 <p align="middle">
