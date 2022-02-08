@@ -24,7 +24,7 @@ This repository contains documentation and resources used to complete the certif
 - :white_check_mark: [09. Machine Learning with Python](09.%20Machine%20Learning%20with%20Python/)
 - :white_check_mark: [10. Applied Data Science Capstone](10.%20Applied%20Data%20Science%20Capstone/)
 
-## Tools:
+## Tools
 The following tools were used to complete this certification: <br> <br>
   <img src="https://user-images.githubusercontent.com/84391594/152705364-f16bb223-41aa-4510-8113-51171dfe9953.png" height="75">
   <img src="https://user-images.githubusercontent.com/84391594/152705271-083f8784-b3c9-4065-9733-ea3fa8ad5a7a.png" height="75">
@@ -34,7 +34,7 @@ The following tools were used to complete this certification: <br> <br>
 </p>
 (Python, Jupyter, GitHub, IBM Watson Studio, IBM Cloud Pak)
 
-## Libraries:
+## Libraries
 The following Python libraries were used throughout the certification: <br> 
 <p align="left">
   <img  src="https://user-images.githubusercontent.com/84391594/152706127-ce41990f-2588-472a-b5df-6b403a5947e6.png" height="35">
@@ -50,7 +50,7 @@ The following Python libraries were used throughout the certification: <br>
   <img  src="https://user-images.githubusercontent.com/84391594/152706217-c0cfd9d8-22ad-4c3b-9ac7-70a6cf2799f7.png" height="35"> <br>
 </p>
 
-## Projects:
+## Projects
 - Random album generator
 - Predict housing prices
 - Best classifier model
