@@ -1,14 +1,20 @@
 # Python for Data Science, AI & Development
 
-## Summary 📄
+## 📄 Summary 
+This course teaches Python fundamentals, including data structures and data analysis, with complete hands-on exercises throughout the course modules, and a final project to put these skills together. 
 
-## Main Topics 📑
-- 
+## 📑 Main Topics 
+- Python basics
+- Python data structures
+- Programming fundamentals
+- Working with data in Python
+- APIs and data collection
 
-## Key Skills Learned 🔑
-- 
+## 🔑 Key Skills Learned 
+- Core Python programming skills
+- Data Analysis in Python using Pandas and Numpy libraries
 
-## Certificates 🏆
+## 🏆 Certificates 
 To verify the certificates, click the images to follow the links.
 
 <p align="middle">
