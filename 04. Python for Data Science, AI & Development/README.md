@@ -1,7 +1,7 @@
 # Python for Data Science, AI & Development
 
 ## 📄 Summary 
-This course teaches Python fundamentals, including data structures and data analysis, with complete hands-on exercises throughout the course modules, and a final project to put these skills together. 
+This course teaches Python fundamentals, including data structures and data analysis, and these skills are used throughout the following courses.
 
 ## 📑 Main Topics 
 - Python basics
