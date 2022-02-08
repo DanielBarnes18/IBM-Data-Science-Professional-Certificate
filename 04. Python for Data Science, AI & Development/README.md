@@ -7,8 +7,7 @@ This course teaches Python fundamentals, including data structures and data anal
 - Python basics
 - Python data structures
 - Programming fundamentals
-- Working with data in Python
-- APIs and data collection
+- APIs, webscraping and working with files
 
 ## 🔑 Key Skills Learned 
 - Core Python programming skills
