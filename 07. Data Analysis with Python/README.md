@@ -24,7 +24,7 @@ This course involves using Python to explore many different types of data. It co
   - Polynomial Regression and Pipelines
   - R-squared and MSE for In-Sample Evaluation
   - Prediction and Decision Making
-- Model Evaluation
+- Model Evaluation and Refinement
   - Over-fitting, under-fitting and model selection
   - Ridge regression
   - GridSearch
