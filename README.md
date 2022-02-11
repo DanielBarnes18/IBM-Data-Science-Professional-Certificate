@@ -51,8 +51,9 @@ The following Python libraries were used throughout the certification: <br>
 </p>
 
 ## Projects
-- Random album generator
-- Predict housing prices
-- Best classifier model
-- Predicting successful rocket landing
-- Dashboard and interactive map
+- [Extracting and Visualizing Stock Data](https://github.com/DanielBarnes18/IBM-Data-Science-Professional-Certificate/blob/main/05.%20Python%20Project%20for%20Data%20Science/Final%20Assignment.ipynb)
+- [House Price Predictions](https://github.com/DanielBarnes18/IBM-Data-Science-Professional-Certificate/blob/main/07.%20Data%20Analysis%20with%20Python/Final%20Assignment%20-%20House%20Price%20Predictions.ipynb)
+- US Domestic Airline Flights Performance Dashboard
+- Best Classifier Model
+- Predicting Successful Rocket Landings
+- Dashboard and Interactive Map
