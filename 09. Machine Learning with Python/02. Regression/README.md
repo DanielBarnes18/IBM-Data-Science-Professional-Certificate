@@ -86,4 +86,4 @@ Another evaluation model, called K-fold cross-validation, resolves most of these
 
 K-fold cross-validation in its simplest form performs multiple train/test splits, using the same dataset where each split is different. Then, the result is average to produce a more consistent out-of-sample accuracy. 
 
-!(train_test_split_evaluation_approach)[.\images\train_test_split_evaluation_approach.png]
+!(train_test_split_evaluation_approach)[.\Images\train_test_split_evaluation_approach.png]
