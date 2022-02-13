@@ -4,6 +4,38 @@
 A cluster is a group of data points or objects in a dataset that are similar to other objects in the group, and dissimilar to datapoints in other clusters.
 Clustering is an unsupervised machine learning method of finding clusters in a dataset, i.e. grouping data based on the similarity to other data points.
 
+## Types of Clustering Algorithms
+This module will look at three main types of clustering algorithms and their characteristics. 
+
+### Partition-based Clustering
+Partition-based clustering is a group of clustering algorithms that produces sphere-like clusters, such as; K-Means, K-Medians or Fuzzy c-Means. These algorithms are relatively efficient and are used for medium and large sized databases. Hierarchical clustering algorithms produce trees of clusters, such as agglomerative and divisive algorithms. This group of algorithms are very intuitive and are generally good for use with small size datasets. 
+
+### Hierarchical Clustering
+Hierarchical clustering algorithms build a hierarchy of clusters where each node is a cluster consisting of the clusters of its daughter nodes. Strategies for hierarchical clustering generally fall into two types:
+- Divisive - top down, so you start with all observations in a large cluster and break it down into smaller pieces
+- Agglomerative - bottom up, where each observation starts in its own cluster and pairs of clusters are merged together as they move up the hierarchy. 
+
+The agglomerative approach is more popular among data scientists and is considered in this course.
+
+### Density-based Clustering
+Density-based clustering algorithms produce arbitrary shaped clusters. They are especially good when dealing with spatial clusters or when there is noise in your data set. For example, the DBSCAN algorithm. 
+#### DBSCAN
+Density-Based Spatial Clustering of Applications with Noise (DBSCAN) is on of the most common clustering algorithms, and works on density of objects. It has a potential advantage over the k-Means algorithm, as it separates outliers, whereas the k-Means algorithm assigns all points to a cluster, even if they don't belong in any. 
+
+The DBSCAN algorithm considers 2 variables:
+- R (Radius of neighbourhood), determines a specified radius that if it includes enough points within it, we call it a dense area
+- M (Minimum number of neighbours), determines the minimum number of data points we want in a neighbourhood to define a cluster
+
+From these, we can define what each data point is, using the following definitions:
+- Core Point, a data point is a core point if within our neighbourhood of the point there are at least M points. For example, as there are 6 points in the 2cm neighbor of the red point, this is marked as a core point
+- Border Point, a data point is a border point if A; its neighbourhood contains less than M data points or B; it is reachable from some core point. Here, reachability means it is within our distance from a core point. It means that even though the yellow point is within the two centimeter neighborhood of the red point, it is not by itself a core point because it does not have at least 6 points in its neighborhood.
+- Outlier, a point that is not a core point and also is not close enough to be reachable from a core point. 
+ 
+The algorithm visits all the points in the dataset and labels them as either core, border, or outlier. The next step is to connect core points that are neighbors and put them in the same cluster. So, a cluster is formed as at least one core point plus all reachable core points plus all their borders. It's simply shapes all the clusters and finds outliers as well. 
+
+For example, for `R=2`, `M=6`, the following clusters are created:
+![image](https://user-images.githubusercontent.com/84391594/153778871-ee862098-2b00-4cba-9fd6-13046c76cd87.png)
+
 
 ## Use Cases
 
@@ -27,18 +59,3 @@ In medicine, it can be used to characterize patient behavior, based on their sim
 ## Conclusions
 Generally clustering can be used for one of the following purposes: exploratory data analysis, summary generation or reducing the scale, outlier detection- especially to be used for fraud detection or noise removal, finding duplicates and datasets or as a pre-processing step for either prediction, other data mining tasks or as part of a complex system. 
 
-## Scope
-This module will look at three main types of clustering algorithms and their characteristics. 
-
-### Partition-based Clustering
-Partition-based clustering is a group of clustering algorithms that produces sphere-like clusters, such as; K-Means, K-Medians or Fuzzy c-Means. These algorithms are relatively efficient and are used for medium and large sized databases. Hierarchical clustering algorithms produce trees of clusters, such as agglomerative and divisive algorithms. This group of algorithms are very intuitive and are generally good for use with small size datasets. 
-
-### Hierarchical Clustering
-Hierarchical clustering algorithms build a hierarchy of clusters where each node is a cluster consisting of the clusters of its daughter nodes. Strategies for hierarchical clustering generally fall into two types:
-- Divisive - top down, so you start with all observations in a large cluster and break it down into smaller pieces
-- Agglomerative - bottom up, where each observation starts in its own cluster and pairs of clusters are merged together as they move up the hierarchy. 
-
-The agglomerative approach is more popular among data scientists and is considered in this course.
-
-### Density-based Clustering
-Density-based clustering algorithms produce arbitrary shaped clusters. They are especially good when dealing with spatial clusters or when there is noise in your data set. For example, the DB scan algorithm. 
