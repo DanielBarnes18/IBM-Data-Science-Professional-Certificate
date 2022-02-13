@@ -30,6 +30,14 @@ If we were to predict CO2 emission using engine size *and* the number of cylinde
 
 Again, depending on the relation between dependent and independent variables it can be either linear or non-linear regression. 
 
+## Types of Non-Linear Regression 
+### Polynomial Regression
+Sometimes, the trend of data is not really linear, and looks curvy. In this case we can use Polynomial regression methods. In fact, many different regressions exist that can be used to fit whatever the dataset looks like, such as quadratic, cubic, and so on, and it can go on and on to infinite degrees.
+In essence, we can call all of these, polynomial regression, where the relationship between the independent variable x and the dependent variable `y` is modeled as an nth degree polynomial in `x`.
+
+### Non-Linear Regression
+Non-linear regression is a method to model the non-linear relationship between the independent variables `x` and the dependent variable `y`. Essentially any relationship that is not linear can be termed as non-linear, and is usually represented by the polynomial of `k` degrees (maximum power of `x`). 
+Non-linear functions can have elements like exponentials, logarithms, fractions, and so on.
 
 ## Model Evaluation in Regression Models
 
