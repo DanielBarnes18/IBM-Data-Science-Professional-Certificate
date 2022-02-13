@@ -57,7 +57,7 @@ There are different metrics to report the accuracy of the model, but most of the
 
 To calculate the accuracy of our regression model, we can just compare the actual values $y$ with the predicted values, $\hat{y}$. The error of the model is calculated as the average difference between the predicted and actual values for all the rows. We can write this error as an equation: 
 
-$$ \text{Error} = \frac{1}{n}\sum_{j=1}^{n}\left|{y_j-\hat{y}_j}\right|
+$$ \text{Error} = \frac{1}{n}\sum_{j=1}^{n}\left|{y_j-\hat{y}_j}\right| $$
 
 In a general sense, when you test with a dataset in which you know the target value for each data point, you're able to obtain a percentage of accurate predictions for the model. This evaluation approach would most likely have a *high training accuracy* and the *low out-of-sample accuracy*, since the model knows all of the testing data points from the training. 
 
@@ -86,4 +86,4 @@ Another evaluation model, called K-fold cross-validation, resolves most of these
 
 K-fold cross-validation in its simplest form performs multiple train/test splits, using the same dataset where each split is different. Then, the result is average to produce a more consistent out-of-sample accuracy. 
 
-!(train_test_split_evaluation_approach)[\images\train_test_split_evaluation_approach.png]
+!(train_test_split_evaluation_approach)[.\images\train_test_split_evaluation_approach.png]
