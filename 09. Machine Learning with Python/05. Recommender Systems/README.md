@@ -100,7 +100,7 @@ The result is the potential rating that our active user will give to new items b
 - Assume that we have a simple user item matrix, which shows the ratings of 4 users for 5 different movies. 
 - Also assume that the active user has watched and rated 3 out of these 5 movies.
 <p align="center">
-  <img src="Images/user_ratings_matrix.png" width="600">
+  <img src="Images/user_ratings_matrix.png" width="400">
 </p>
 - To find out which of the other 2 movies (that haven't been watched) should be recommended, the first step is to discover how similar the active user is to the other users. This similarity can be quantified through several different statistical and vectorial techniques such as distance or similarity measurements including Euclidean Distance, Pearson Correlation, Cosine Similarity, and so on. 
 
@@ -108,14 +108,14 @@ The result is the potential rating that our active user will give to new items b
 - To calculate the level of similarity between two users, we use the 3 movies that both the users have rated in the past. 
 - One of the aforementioned measurements is performed to give a a similarity measurement, such that here, the similarities are 0.7, 0.9, and 0.4 between the active user and other users. These numbers represent similarity weights or proximity of the active user to other users in the dataset. 
 <p align="center">
-  <img src="Images/similarity_weights.png" width="600">
+  <img src="Images/similarity_weights.png" width="500">
 </p>
 
 #### Weighted Rating Matrix
 - The next step is to create a weighted rating matrix. 
 - Multiply the similarity weights by the user ratings. This results in a weighted ratings matrix, which represents the user's neighbors opinion about the two candidate movies for recommendation. 
 <p align="center">
-  <img src="Images/weighted_ratings_matrix.png" width="600">
+  <img src="Images/weighted_ratings_matrix.png" width="500">
 </p>
 - In fact, it incorporates the behaviour of other users and gives more weight to the ratings of those users who are more similar to the active user. 
 
