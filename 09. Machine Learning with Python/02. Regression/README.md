@@ -82,7 +82,7 @@ This will provide a more accurate evaluation on out-of-sample accuracy because t
 
 The issue with train/test split is that it's highly dependent on the datasets on which the data was trained and tested. The variation of this causes train/test split to have a *better out-of-sample prediction* than training and testing on the same dataset, but it still has some problems due to this dependency.
 
-![train_test_split_evaluation_approach](../Images/train_test_split_evaluation_approach.png)
+![train_test_split_evaluation_approach](Images/train_test_split_evaluation_approach.png)
 
 ### K-Fold Cross Validation
 Another evaluation model, called K-fold cross-validation, resolves most of these issues. To fix a high variation that results from a dependency, you can just average it.
@@ -96,14 +96,14 @@ Another evaluation model, called K-fold cross-validation, resolves most of these
 
 K-fold cross-validation in its simplest form performs multiple train/test splits, using the same dataset where each split is different. Then, the result is average to produce a more consistent out-of-sample accuracy. 
 
-![k_fold_cross_validation](../Images/k_fold_cross_validation.png)
+![k_fold_cross_validation](Images/k_fold_cross_validation.png)
 
 
 
 ### Evaluation Metrics in Regression Models\n",
 Evaluation metrics are used to explain the performance of a model, and they provide a key role in the development of a model as it provides insight to areas that require improvement In the context of regression, the error of the model is the difference between the data points and the trend line predicted by the algorithm. Since there are multiple data points, an error can be determined in multiple ways.
     
-![error_def](../Images/error_def.png)
+![error_def](Images/error_def.png)
 
 Each of the following metrics can be used for quantifying of your prediction. The choice of metric completely depends on the type of model, the data type, and domain of knowledge.
 
