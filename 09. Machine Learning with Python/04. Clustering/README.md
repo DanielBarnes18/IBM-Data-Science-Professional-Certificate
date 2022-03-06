@@ -10,6 +10,21 @@ This module will look at three main types of clustering algorithms and their cha
 ### Partition-based Clustering
 Partition-based clustering is a group of clustering algorithms that produces sphere-like clusters, such as; K-Means, K-Medians or Fuzzy c-Means. These algorithms are relatively efficient and are used for medium and large sized databases. Hierarchical clustering algorithms produce trees of clusters, such as agglomerative and divisive algorithms. This group of algorithms are very intuitive and are generally good for use with small size datasets. 
 
+The algorithm explored in this module is [k-means clustering](https://github.com/DanielBarnes18/IBM-Data-Science-Professional-Certificate/blob/main/09.%20Machine%20Learning%20with%20Python/04.%20Clustering/01.%20k-Means.ipynb), with 2 examples:
+
+<ol>
+ <li> 
+   k-means on a random generated dataset
+
+![k-means_random](https://user-images.githubusercontent.com/84391594/156930816-28140c4e-7190-4628-b907-5f64ffad7e58.png) 
+ </li>
+ <li> 
+ Using k-means for customer segmentation
+
+![k-means_customer_segmentation](https://user-images.githubusercontent.com/84391594/156930822-de5e47b5-53ec-4492-a690-fb0b4395c4ca.png)
+</li>
+</ol>
+
 ### Hierarchical Clustering
 Hierarchical clustering algorithms build a hierarchy of clusters where each node is a cluster consisting of the clusters of its daughter nodes. Strategies for hierarchical clustering generally fall into two types:
 - Divisive - top down, so you start with all observations in a large cluster and break it down into smaller pieces
@@ -17,6 +32,38 @@ Hierarchical clustering algorithms build a hierarchy of clusters where each node
 
 The agglomerative approach is more popular among data scientists and is considered in this course.
 
+Again, 2 examples are used to explore this algorithm:
+
+<ol>
+ <li> A random dataset of blobs </li>
+ <ul>
+  <li> The data separated into clusters look like the following:
+   
+  ![agglom_cluster](https://user-images.githubusercontent.com/84391594/156931091-1b2422c9-f779-45b2-ba6d-34aec519ed72.png) 
+  </li>
+  <li>
+   A Hierarchical clustering is typically visualized as a dendrogram as shown below. Each merge is represented by a horizontal line. The y-coordinate of the horizontal line is the similarity of the two clusters that were merged, where cities are viewed as singleton clusters. By moving up from the bottom layer to the top node, a dendrogram allows us to reconstruct the history of merges that resulted in the depicted clustering.
+   
+   ![agglom_cluster_dendogram](https://user-images.githubusercontent.com/84391594/156931096-5cb6de8a-2362-4e48-8a90-0ed7a1a9285b.png)
+  </li>
+ </ul>
+ <li> Clustering of a vehicle dataset </li>
+ <ul>
+  <li> use clustering methods, we can find the most distinctive clusters of vehicles. It will summarize the existing vehicles and help manufacturers to make decision about the supply of new models. Using the 'AgglomerativeClustering' function from the scikit-learn library, we can cluster a vehicle dataset to give the following output:
+   
+  ![cars_clusters](https://user-images.githubusercontent.com/84391594/156932000-c6c19258-20d2-4607-8bed-7f9cf6607972.png)
+  </li>
+  <li>This shows the distribution of each cluster using the scatter plot, but it is not very clear where is the centroid of each cluster. Moreover, there are 2 types of vehicles in our dataset, "truck" and "car". So, we use them to distinguish the classes, and summarize the cluster. 
+
+   ![cars_clusters2](https://user-images.githubusercontent.com/84391594/156932127-de862af4-d902-44b8-87e7-131db1264bb7.png)
+  </li>
+ </ul>
+</ol>
+
+  
+
+
+ 
 ### Density-based Clustering
 Most of the traditional clustering techniques, such as k-means, hierarchical and fuzzy clustering, can be used to group data without supervision. However, when applied to tasks with arbitrary shape clusters, or clusters within a cluster, the traditional techniques might be unable to achieve good results. That is, elements in the same cluster might not share enough similarity or the performance may be poor. Additionally, Density-based clustering locates regions of high density that are separated from one another by regions of low density. Density, in this context, is defined as the number of points within a specified radius.
 
