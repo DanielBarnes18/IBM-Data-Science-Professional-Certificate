@@ -97,3 +97,42 @@ Another evaluation model, called K-fold cross-validation, resolves most of these
 K-fold cross-validation in its simplest form performs multiple train/test splits, using the same dataset where each split is different. Then, the result is average to produce a more consistent out-of-sample accuracy. 
 
 ![k_fold_cross_validation](../Images/k_fold_cross_validation.png)
+
+
+
+### Evaluation Metrics in Regression Models\n",
+Evaluation metrics are used to explain the performance of a model, and they provide a key role in the development of a model as it provides insight to areas that require improvement In the context of regression, the error of the model is the difference between the data points and the trend line predicted by the algorithm. Since there are multiple data points, an error can be determined in multiple ways.
+    
+![error_def](../Images/error_def.png)
+
+Each of the following metrics can be used for quantifying of your prediction. The choice of metric completely depends on the type of model, the data type, and domain of knowledge.
+
+#### Mean Absolute Error (MAE)
+Mean Absolute Error is the mean of the absolute value of the errors. This is the easiest of the metrics to understand, since it's just the average error.
+
+<img src="https://render.githubusercontent.com/render/math?math=\text{MAE} = \frac{1}{n}\sum_{j=1}^{n}\left|{y_j-\hat{y}_j}\right|">
+
+#### Mean Squared Error (MSE)
+Mean Squared Error is the mean of the squared error. It's more popular than Mean Absolute Error because the focus is geared more towards large errors. This is due to the squared term, exponentially increasing larger errors in comparison to smaller ones.
+
+<img src="https://render.githubusercontent.com/render/math?math=\text{MSE} = \frac{1}{n}\sum_{j=1}^{n}\left({y_j-\hat{y}_j}\right)^2">
+
+#### Root Mean Squared Error (RMSE)
+Root Mean Squared Error is the square root of the mean squared error. This is one of the most popular of the evaluation metrics because Root Mean Squared Error is interpretable in the same units as the response vector or Y units, making it easy to relate its information.
+
+<img src="https://render.githubusercontent.com/render/math?math=\text{RMSE} = \sqrt{\frac{1}{n}\sum_{j=1}^{n}\left({y_j-\hat{y}_j}\right)^2}">
+
+#### Relative Absolute Error (RAE)
+Relative absolute error, also known as residual sum of square, where $\\bar{y} is a mean value of $y$, takes the total absolute error and normalizes it by dividing by the total absolute error of the simple predictor.
+
+<img src="https://render.githubusercontent.com/render/math?math=\text{RAE} = \frac{\sum_{j=1}^{n}\left|y_j-\hat{y}_j\right|}{\sum_{j=1}^{n}\left|y_j-\bar{y}\right|}">
+
+#### Relative Squared Error\n",
+Relative squared error is very similar to relative absolute error, but is widely adopted by the data science community as it is used for calculating $R^2$. $R^2$ is not an error per say but is a popular metric for the accuracy of your model. It represents how close the data values are to the fitted regression line. The higher the $R^2$, the better the model fits your data.
+
+<img src="https://render.githubusercontent.com/render/math?math=\text{RSE} = \frac{\sum_{j=1}^{n}\left(y_j-\hat{y}_j\right)^2}{\sum_{j=1}^{n}\left(y_j-\bar{y}\right)^2}">
+<img src="https://render.githubusercontent.com/render/math?math=R^2 = 1 - RSE">
+
+
+
+
