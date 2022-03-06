@@ -6,7 +6,7 @@ Recommender systems capture the patterns of peoples' behaviour and use to predic
 
 ## Types of Recommender Systems / Recommendation Engines
 There are generally 2 main types of recommendation systems: 
-1. [Content-based filtering](https://github.com/DanielBarnes18/IBM-Data-Science-Professional-Certificate/tree/main/09.%20Machine%20Learning%20with%20Python/05.%20Recommender%20Systems/01.%20Content-based%20Filtering)
+1. [Content-based](https://github.com/DanielBarnes18/IBM-Data-Science-Professional-Certificate/tree/main/09.%20Machine%20Learning%20with%20Python/05.%20Recommender%20Systems/01.%20Content-based%20Filtering)
 2. [Collaborative filtering](https://github.com/DanielBarnes18/IBM-Data-Science-Professional-Certificate/tree/main/09.%20Machine%20Learning%20with%20Python/05.%20Recommender%20Systems/02.%20Collaborative%20Filtering)
 
 <p align="center">
