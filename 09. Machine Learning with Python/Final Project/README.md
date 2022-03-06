@@ -1,10 +1,9 @@
 # Machine Learning with Python - The Best Classifier
 
-## Background
-
+## 📄 Summary
 This project involved completing a notebook to build a classifier that predicts whether a loan case will be paid off or not. 
 
-## Method
+## 📝Method
 A historical dataset from previous loan applications is loaded, the data is cleaned, and then split into a testing dataset and a training dataset. 
 Tthe following classification algorithms are trained using the training data, and the corresponding ski-kit learn libraries:
 
