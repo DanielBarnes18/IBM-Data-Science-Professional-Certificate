@@ -32,7 +32,7 @@ Hierarchical clustering algorithms build a hierarchy of clusters where each node
 
 The agglomerative approach is more popular among data scientists and is considered in this course.
 
-Again, 2 examples are used to explore this algorithm:
+Again, [2 examples](https://github.com/DanielBarnes18/IBM-Data-Science-Professional-Certificate/blob/main/09.%20Machine%20Learning%20with%20Python/04.%20Clustering/02.%20Agglomerative%20Clustering.ipynb) are used to explore this algorithm:
 
 <ol>
  <li> A random dataset of blobs </li>
@@ -68,6 +68,7 @@ Again, 2 examples are used to explore this algorithm:
 Most of the traditional clustering techniques, such as k-means, hierarchical and fuzzy clustering, can be used to group data without supervision. However, when applied to tasks with arbitrary shape clusters, or clusters within a cluster, the traditional techniques might be unable to achieve good results. That is, elements in the same cluster might not share enough similarity or the performance may be poor. Additionally, Density-based clustering locates regions of high density that are separated from one another by regions of low density. Density, in this context, is defined as the number of points within a specified radius.
 
 Density-based clustering algorithms produce arbitrary shaped clusters. They are especially good when dealing with spatial clusters or when there is noise in your data set. For example, the DBSCAN algorithm. 
+
 #### DBSCAN
 Density-Based Spatial Clustering of Applications with Noise (DBSCAN) is on of the most common clustering algorithms, and works on density of objects. It has a potential advantage over the k-Means algorithm, as it separates outliers, whereas the k-Means algorithm assigns all points to a cluster, even if they don't belong in any. 
 
@@ -84,6 +85,10 @@ The algorithm visits all the points in the dataset and labels them as either cor
 
 For example, for `R=2`, `M=6`, the following clusters are created:
 ![image](https://user-images.githubusercontent.com/84391594/153778871-ee862098-2b00-4cba-9fd6-13046c76cd87.png)
+
+This module explores the example of [Weather Station Clustering using DBSCAN & scikit-learn](https://github.com/DanielBarnes18/IBM-Data-Science-Professional-Certificate/blob/main/09.%20Machine%20Learning%20with%20Python/04.%20Clustering/03.%20Density-based%20Clustering.ipynb), where we can see the clustering of stations based on their location, mean, max, and min temperature:
+
+![weather_station_clustering](https://user-images.githubusercontent.com/84391594/156932728-d8576855-9fd8-4fb4-9005-c20eff202e67.png)
 
 
 ## Use Cases
