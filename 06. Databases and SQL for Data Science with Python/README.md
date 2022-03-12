@@ -10,23 +10,19 @@ The purpose of this course is to introduce relational database concepts and to l
   - COUNT, DISTINCT, LIMIT Statements
   - INSERT Statements
   - UPDATE and DELETE Statements
-  - Summary
 - [Introduction to Relational Databases and Tables](https://github.com/DanielBarnes18/IBM-Data-Science-Professional-Certificate/tree/main/06.%20Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/02.%20Introduction%20to%20Relational%20Databases%20and%20Tables)
   - Relational Database Concepts
   - Types of SQL statements (DDL vs. DML)
   - CREATE TABLE Statement
   - ALTER, DROP, and Truncate tables
   - Create and Load Tables using SQL Scripts
-  - Summary
 - [Intermediate SQL](https://github.com/DanielBarnes18/IBM-Data-Science-Professional-Certificate/tree/main/06.%20Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/03.%20Intermediate%20SQL)
   - Refining your Results
     - String Patterns, Ranges, Sorting, and Grouping
-    - Summary
   - Functions, Multiple Tables, and Sub-queries
     - Built-in Database Functions
     - Sub-Queries and Nested SELECTS
     - Working with Multiple Tables
-    - Summary
 - [Accessing Databases using Python](https://github.com/DanielBarnes18/IBM-Data-Science-Professional-Certificate/tree/main/06.%20Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/04.%20Accessing%20Databases%20using%20Python)
   - How to Access Databases Using Python
   - Writing Code using DB-API
@@ -34,7 +30,6 @@ The purpose of this course is to introduce relational database concepts and to l
   - Creating Tables, Inserting, and Querying Data
   - SQL Magic
   - Analysing Data with Python
-  - Summary
 - [Course Assignment](https://github.com/DanielBarnes18/IBM-Data-Science-Professional-Certificate/tree/main/06.%20Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/05.%20Course%20Assignment)
   - Working with Real World Datasets
   - Getting Table and Column Details
@@ -45,14 +40,10 @@ The purpose of this course is to introduce relational database concepts and to l
     - Stored Procedures
     - ACID Transactions
     - Committing and Rolling Back a Transaction
-    - Summary
   - JOIN Statements
     - Join Overview
     - Inner Join
     - Outer Joins
-    - Summary
-
-
 
 ## 🔑 Key Skills Learned 
 - Analysing data within a database using SQL and Python
