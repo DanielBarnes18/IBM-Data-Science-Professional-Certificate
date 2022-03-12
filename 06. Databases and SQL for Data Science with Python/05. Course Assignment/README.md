@@ -1,4 +1,4 @@
-# Census, Crime, and School Data Analysis using the Chicago Data Portal dataset
+# Chicago Census, Crime, and School Data Analysis using SQL
 
 
 ## Context
