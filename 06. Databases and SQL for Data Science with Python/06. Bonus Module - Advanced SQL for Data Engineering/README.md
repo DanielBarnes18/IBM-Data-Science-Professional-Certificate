@@ -2,7 +2,7 @@ A `JOIN` combines the rows from two or more tables based on a relationship betwe
 The column/s in each table to be used as a link between the tables must first be identified, and to do this, a join is usually created between a **primary key** in one table and a **foreign key** in another.
 
 <p align="center">
-  <img src="../Images/PrimaryForeignKeys.png" width="600">
+  <img src="Images/PrimaryForeignKeys.png" width="600">
 </p>
 
 
@@ -17,13 +17,13 @@ For example, to retrieve a list of all people who are borrowing books, and the d
 - In the `ON` clause, specify the `JOIN` predicate, in this case the condition that the borrower ID in the borrower table is equal to the borrower ID in the loan table. 
 
 <p align="center">
-  <img src="../Images/InnerJoin.png" width="600">
+  <img src="Images/InnerJoin.png" width="600">
 </p>
 
 The result set shows only the rows from both tables that have the same borrower ID. The rows are displayed if they `Borrower_Id` matches. Rows with `Borrower_IDs` that do not match are not displayed.
 
 <p align="center">
-  <img src="../Images/InnerJoinResult.png" width="600">
+  <img src="Images/InnerJoinResult.png" width="600">
 </p>
 ``
 ``The `Borrower_Id`, `Lastname`, and Country columns are taken from the `Borrower` table and joined to the `Borrower_Id` and `Loan_Date` columns from the Loan table to make the result set.
@@ -39,7 +39,7 @@ SQL offers three types of outer joins:
 - `FULL OUTER JOIN`
 
 <p align="center">
-  <img src="../Images/OuterJoin.png" width="600">
+  <img src="Images/OuterJoin.png" width="600">
 </p>
 
 
@@ -48,7 +48,7 @@ A left outer join returns all the rows from the left table, and any matching row
 
 <p align="center">
   
-  <img src="../Images/LeftJoin.png" width="600">
+  <img src="Images/LeftJoin.png" width="600">
 </p>
 
 - The Borrower table is the first table specified in the `FROM` clause of the `SELECT` statement, so the `Borrower` table is the `LEFT` table, and the `Loan` table is the `RIGHT` table.
@@ -62,7 +62,7 @@ A left outer join returns all the rows from the left table, and any matching row
 A right outer join returns all the rows from the right table, and any matching rows from the left table. An example is shown below:
 
 <p align="center">
-  <img src="../Images/RightJoin.png" width="600">
+  <img src="Images/RightJoin.png" width="600">
 </p>
 
 - In the `FROM` clause, the `Loan` table is listed on the right side of the join operator, therefore all rows from the Loan table will be selected and combined with the contents of the `Borrower` table based on the criteria specified in the query. 
@@ -76,7 +76,7 @@ A right outer join returns all the rows from the right table, and any matching r
 A full outer join, or full join, returns all rows from both tables. An example is shown below:
 
 <p align="center">
-  <img src="../Images/FullJoin.png" width="600">
+  <img src="Images/FullJoin.png" width="600">
 </p>
 
 - For a `FULL JOIN`, all rows are selected from the `Borrower` table and all rows from the `Loan` table are also selected. 
