@@ -27,12 +27,39 @@ For example, to retrieve a list of all people who are borrowing books, and the d
 </p>
 
 The result set shows only the rows from both tables that have the same borrower ID. The rows are displayed if they Borrower_Id matches. Rows with Borrower_IDs that do not match are not displayed.
+
 <p align="center">
   <img src="../Images/InnerJoinResult.png" width="600">
 </p>
+
 The Borrower_Id, Lastname, and Country columns are taken from the Borrower table and joined to the Borrower_Id and Loan_Date columns from the Loan table to make the result set
 
 
 
 ## `OUTER JOIN`
-An `OUTER JOIN` returns matching rows, and even the rows from one or the other table that don’t match. 
+Outer joins, like inner joins, return the rows from each table that have matching values in the join columns. Unlike inner joins, outer joins also return the rows that do not have a match between the tables. 
+
+SQL offers three types of outer joins: 
+- `LEFT OUTER JOIN`
+- `RIGHT OUTER JOIN`
+- `FULL OUTER JOIN`
+
+<p align="center">
+  <img src="../Images/OuterJoin.png" width="600">
+</p>
+
+
+### `LEFT JOIN` Operator
+<p align="center">
+  <img src="../Images/LeftJoin.png" width="600">
+</p>
+
+### `RIGHT JOIN` Operator
+<p align="center">
+  <img src="../Images/RightJoin.png" width="600">
+</p>
+
+### `FULL JOIN` Operator
+<p align="center">
+  <img src="../Images/FullJoin.png" width="600">
+</p>
