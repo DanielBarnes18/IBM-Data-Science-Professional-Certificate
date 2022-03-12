@@ -137,8 +137,14 @@ So, for example, to get the number of rescues during the month of May:
 
 Some further uses of functions are shown below:
 <p align="center">
-  <img src="Images/UsingFunctions.png" width="600">
+  <img src="Images/UsingFunctions.png" width="1000">
 </p>
 
 ### Sub-Queries and Nested SELECTS
+Sub-queries are queries inside of other queries, e.g. 
+
+	SELECT COLUMN from TABLE
+	    WHERE COLUMN2 = SELECT( MAX(COLUMN2) from TABLE)
+	    
+
 ### Working with Multiple Tables
