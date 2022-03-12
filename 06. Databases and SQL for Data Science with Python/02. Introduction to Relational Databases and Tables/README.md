@@ -82,6 +82,3 @@ DML statements are used to read and modify data in tables. These are also someti
 - `SELECT` - reads or selects row or rows from a table
 - `UPDATE` - edits row or rows in a table
 - `DELETE` - removes a row or rows of data from a table
-
-
-## Create and Load Tables using SQL Scripts
