@@ -3,6 +3,88 @@
 
 ## Views, Stored Procedures, and Transactions
 
+### Views
+A view is an alternative way of representing data that exists in one or more tables or views. A view can include all or some of the columns from one or more base tables or existing views. Creating a view creates a named specification of a results table, which can be queried in the same way as a table. Only the definition of the view is stored, not the data.
+
+Views can:
+- Show a selection of data for a given table
+- Combine two or more tables in meaningful ways
+- Simplify access to data
+- Show only portions of daa in the table
+
+An example of why to use a view would be to display only non-sensitive data from an Employees table. 
+
+
+##### View Syntax
+The syntax of a `CREATE VIEW` statement is as follows:
+
+        CREATE VIEW view_name AS
+        SELECT column1, column2, ...
+        FROM table_name
+        WHERE condition ; 
+        
+        
+The syntax of a `REPLACE VIEW` statement is as follows:
+        
+        CREATE OR REPLACE VIEW view_name AS
+        SELECT column_1, column_2, ...
+        FROM table_name
+        WHERE condition ;
+        
+        
+The syntax of a `DROP VIEW` statement is as follows:
+
+        DROP VIEW view_name ;
+        
+        
+### Stored Procedures
+A stored procedure is a set of SQL statements stored and executed on the database server. It can be written in many different languages, accept information in the form of parameters, and return results to the client.
+
+Some benefits include:
+- Reduction in network traffic because only one call is needed to execute multiple statements. 
+- Improvement in performance because the processing happens on the server where the data is stored, with just the final result being passed back to the client. 
+- Reuse of code because multiple applications can use the same stored procedure for the same job. Increase in security because:
+    - You do not need to expose all your table and column information to client-side develop-ers
+    - You can use server-side logic to validate data before accepting it into the system.
+- They can reduce network traffic, improve performance, reuse code, and increase security 
+Stored procedures can be called from external applications and dynamic SQL statements.
+
+#### Stored Procedure Syntax
+The syntax of a stored procedure is as follows:
+
+<p align="center">
+  <img src="Images/StoredProcedureSyntax.png" width="600">
+</p>
+
+And to call the stored procedure, run the following:
+
+      CALL RETRIEVE_ALL ; 
+      
+where `RETRIEVE_ALL` was the stored procedure defined previously. 
+
+
+
+### ACID Transactions
+
+A **transaction** is an indivisible unit of work. 
+It can consist of one or more SQL statements, but to be considered successful, either all of those SQL statements must complete successfully, leaving the database in a new stable state, or none must complete, leaving the database as it was before the transaction began.
+
+ACID stands for:
+- **Atomic** – all changes must be performed successfully, or not at all
+- **Consistent** – data must be in a consistent state before and after the transaction
+- **Isolated** – no other process can change the data while the transaction is running
+- **Durable** – the changes made by the transaction must persist
+
+SQL commands `BEGIN`, `COMMIT`, and `ROLLBACK` are used to manage ACID transactions. SQL commands can be called from languages like C, R and Python.
+
+An example ACID transaction is shown below. 
+
+<p align="center">
+  <img src="Images/ACID.png" width="1000">
+</p>
+
+
+
 
 ## `JOIN` Statements
 A `JOIN` combines the rows from two or more tables based on a relationship between certain columns in these tables. 
