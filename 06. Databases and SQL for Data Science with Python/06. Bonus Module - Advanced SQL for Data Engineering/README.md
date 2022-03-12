@@ -1,3 +1,10 @@
+
+# Advanced SQL for Data Engineering
+
+## Views, Stored Procedures, and Transactions
+
+
+## `JOIN` Statements
 A `JOIN` combines the rows from two or more tables based on a relationship between certain columns in these tables. 
 The column/s in each table to be used as a link between the tables must first be identified, and to do this, a join is usually created between a **primary key** in one table and a **foreign key** in another.
 
@@ -5,8 +12,15 @@ The column/s in each table to be used as a link between the tables must first be
   <img src="Images/PrimaryForeignKeys.png" width="600">
 </p>
 
+The syntax for all types of `JOIN` are shown below, and the following sections go into more detail, with examples. 
 
-## `INNER JOIN`
+<p align="center">
+  <img src="Images/JOIN_SYNTAX.png" width="600">
+</p>
+
+
+
+### `INNER JOIN`
 An `INNER JOIN` displays only the rows from two tables that have matching value in a common column, usually the primary key of one table that exists as a foreign key in the second table.
 
 For example, to retrieve a list of all people who are borrowing books, and the date of the loan, data is needed from the `borrower` table and the `loan` table. 
@@ -30,7 +44,7 @@ The result set shows only the rows from both tables that have the same borrower 
 
 
 
-## `OUTER JOIN`
+### `OUTER JOIN`
 Outer joins, like inner joins, return the rows from each table that have matching values in the join columns. Unlike inner joins, outer joins also return the rows that do not have a match between the tables. 
 
 SQL offers three types of outer joins: 
@@ -43,7 +57,7 @@ SQL offers three types of outer joins:
 </p>
 
 
-### `LEFT JOIN` Operator
+#### `LEFT JOIN` Operator
 A left outer join returns all the rows from the left table, and any matching rows from the right table. An example is shown below:
 
 <p align="center">
@@ -58,7 +72,7 @@ A left outer join returns all the rows from the left table, and any matching row
 
 
 
-### `RIGHT JOIN` Operator
+#### `RIGHT JOIN` Operator
 A right outer join returns all the rows from the right table, and any matching rows from the left table. An example is shown below:
 
 <p align="center">
@@ -72,7 +86,7 @@ A right outer join returns all the rows from the right table, and any matching r
 
 
 
-### `FULL JOIN` Operator
+#### `FULL JOIN` Operator
 A full outer join, or full join, returns all rows from both tables. An example is shown below:
 
 <p align="center">
