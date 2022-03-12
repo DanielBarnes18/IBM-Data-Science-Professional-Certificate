@@ -111,6 +111,33 @@ The ibm_db API provides a variety of useful Python functions for accessing and m
 
 - The following steps can be seen in the notebook files within this folder.
 
+
+
+## SQL Magic
+Jupyter notebooks have a concept of Magic commands that can simplify working with Python, and are particularly useful for data analysis. Your notebooks can have two types of magic commands:
+
+- Cell magics: start with a double %% sign and apply to the entire cell
+- Line magics: start with a single % (percent) sign and apply to a particular line in a cell
+
+Their usage is of the format:
+
+        %magicname arguments
+
+The SQL Magic commands can be used to execute queries more easily than by using the Python DB-API. For example to execute a query to select some data from a table and fetch its results, the following line in a Jupyter notebook cell will do:
+
+        %sql select * from tablename
+
+Although SQL magic simplifies working with databases, it has some limitations. For example, unlike DB-API, there are no explicit methods to close a connection and free up resources.
+
+## Using Jupyter Notebooks
+
+The first step in Jupyter notebooks is always to install all the necessary libraries, and for accessing databases using SQL, these are neeeded:
+
+        !pip install sqlalchemy
+        !pip install ibm_db_sa
+        !pip install ipython-sql
+
+
   
   
   
