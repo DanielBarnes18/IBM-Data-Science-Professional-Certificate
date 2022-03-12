@@ -182,10 +182,18 @@ For example,
 The derived table in a sub-query does not include sensitive fields like date of birth or salary. This example is a trivial one, and we could just as easily have included the columns in the outer query. However, such derived tables can prove to be powerful in more complex situations such as when working with multiple tables and doing joins. 
 
 
+#### Nested `SELECT` Statements
+A Typical Nested `SELECT` Statement looks like:
 
-
-
+	SELECT column_name [, column_name ] FROM table1 [, table2 ]
+		WHERE column_name OPERATOR
+			(SELECT column_name [, column_name ] FROM table1 [, table2 ]
+				WHERE condition);
 
 
 
 ### Working with Multiple Tables
+There are 3 main ways of accessing multiple tables in the same query:
+1. Sub-queries
+2. Implicit `JOIN`
+3. `JOIN` operators (`INNER JOIN`, `OUTER JOIN`, etc.)
