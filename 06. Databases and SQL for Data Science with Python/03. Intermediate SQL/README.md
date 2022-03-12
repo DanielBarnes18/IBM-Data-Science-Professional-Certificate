@@ -134,7 +134,11 @@ So, for example, to get the number of rescues during the month of May:
 	SELECT COUNT(*) FROM TABLE
 	    WHERE MONTH(RESCUEDATE) = '05'
 	    
-	    
+
+Some further uses of functions are shown below:
+<p align="center">
+  <img src="Images/UsingFunctions.png" width="600">
+</p>
 
 ### Sub-Queries and Nested SELECTS
 ### Working with Multiple Tables
