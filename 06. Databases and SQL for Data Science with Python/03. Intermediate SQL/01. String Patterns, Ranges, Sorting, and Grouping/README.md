@@ -24,8 +24,13 @@ Instead of writing something like
 	WHERE pages >=290 AND pages <=300 ;
         
 the **between and** clause can be used, so it becomes:
+
       SELECT title, pages from Book
         WHERE pages between 290 and 300 ;
+	
+To get a sample or look at a small set of rows, limit the result set by using the `LIMIT` clause:
+
+	SELECT * FROM Book LIMIT 3
 
 ### Sets of Values
 A good trick to specify a set of values in a `WHERE` clause is to use the `IN` operator, so instead of writing something like 
