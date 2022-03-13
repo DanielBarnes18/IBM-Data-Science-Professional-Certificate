@@ -82,3 +82,30 @@ DML statements are used to read and modify data in tables. These are also someti
 - `SELECT` - reads or selects row or rows from a table
 - `UPDATE` - edits row or rows in a table
 - `DELETE` - removes a row or rows of data from a table
+
+
+## Useful Notes for Querying Databases
+
+### Querying column names with spaces and special characters
+By default, spaces are mapped to underscores, e.g. `Name of Dog` is mapped to `Name_of_Dog`. 
+
+Use _ to replace special characters, such as brackets, e.g. `Breed (dominant breed if not pure breed)` is mapped to `Breed__dominant_breed_if_not_pure_breed_`. Note the double underscore for “ (“, and the trailing underscore for the “)” bracket at the end.
+
+
+### Querying column names with mixed cases
+Use double quotes to specify mixed-case column names, e.g. 
+
+      SELECT "Id" from DOGS
+      
+is valid, whereas searching for an "ID" column will find nothing. 
+
+### Splitting queries into multiple lines
+Use backslash `\` to split queries into multiple lines, e.g. 
+
+      %sql SELECT "Id", "Name_of_Dog", \
+        from dogs \
+        where "Name_of_Dog" = 'Huggy'
+        
+        
+Or, use `%%sql` in the first row of the cell in the notebook, and the backslashes are not needed.
+
