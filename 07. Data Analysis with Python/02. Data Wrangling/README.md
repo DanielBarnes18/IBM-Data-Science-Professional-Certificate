@@ -119,7 +119,7 @@ can be applied on categorical variables, and groups the data into categories. An
 		df_grp = df_test.groupby(['drive_wheels', 'body_style'], as_index = False).mean()
 
 <p align="center">
-  <img src="../Images/Groupby.png" width="300">
+  <img src="../Images/Groupby.png" width="200">
 </p>
 
 #### pivot Method
@@ -133,10 +133,10 @@ The Pandas `pivot` method can be used to show 1 variable displayed along the col
 
 A useful way to visualise this is by using a heatmap, so using matplotlib:
 
-		import matplotlib.pyplot as plt
-		plt.pcolor(df_pivot, cmap = 'RdBu')
-		plt.colorbar()
-		plt.show()
+	import matplotlib.pyplot as plt
+	plt.pcolor(df_pivot, cmap = 'RdBu')
+	plt.colorbar()
+	plt.show()
 
 <p align="center">
   <img src="../Images/Heatmap.png" width="300">
