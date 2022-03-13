@@ -26,7 +26,7 @@ will find the correlation between horsepower and price for the `df` dataframe.
 ### Strong Correlations
 A strong correlation occurs when the Pearson correlation coefficient is close to 1 or -1 (positive or negative relationship), and when the P-value is less than 0.001.
 
-## Chi-Square Test for Association ($\xi^2$)
+## Chi-Square Test for Association <img src="https://render.githubusercontent.com/render/math?math=\left(\xi^2\right)">
 When dealing with the relationships between two categorical variables, the same correlation method for continuous variables cannot be used. Instead, the Chi-square test for the association must be used. The Chi-square test is intended to test how likely it is that an observed distribution is due to chance. It measures how well the observed distribution of data fits with the distribution that is expected if the variables are independent.
 
 The Chi-square tests null hypothesis is that the variables are independent. The test compares the observed data to the values that the model expects if the data was distributed in different categories by chance. Anytime the observed data doesn't fit within the model of the expected values, the probability that the variables are dependent becomes stronger, thus proving the null hypothesis incorrect. The Chi-square does not give the type of relationship that exists between both variables, only that a relationship exists.
