@@ -56,7 +56,9 @@ This project follows these steps:
 - Structuring and building a data-findings report
 
 ## 🏆 Certificates 
+To verify the certificates, click the images to follow the links.
+
 <p align="middle">
-  <a href="https://coursera.org/share/3fce21c388d0776e46ad4aa6392eea63"><img src="https://user-images.githubusercontent.com/84391594/161431367-0362a90d-eb7d-499a-a141-ba4ffd0f09c5.jpeg" height="430"></a>
-  <a href="https://www.credly.com/badges/26a24b18-4165-4c7e-983c-e5273be166a9/public_url"><img src="https://user-images.githubusercontent.com/84391594/161431807-63db38f1-2203-4383-aa6e-ad8b6e42ee55.png" height="430"></a>
+  <a href="https://coursera.org/share/3fce21c388d0776e46ad4aa6392eea63"><img src="https://user-images.githubusercontent.com/84391594/161432000-ba6916f0-6f5e-49ab-9ff3-fae4f6f18596.png" height="400"></a>
+  <a href="https://www.credly.com/badges/26a24b18-4165-4c7e-983c-e5273be166a9/public_url"><img src="https://user-images.githubusercontent.com/84391594/161431807-63db38f1-2203-4383-aa6e-ad8b6e42ee55.png" height="400"></a>
 </p>
